@@ -55,6 +55,8 @@ children = [
   Hello.Repo,
   # Start the PubSub system
   {Phoenix.PubSub, name: Hello.PubSub},
+  # Start Finch
+  {Finch, name: Hello.Finch},
   # Start the Endpoint (http/https)
   HelloWeb.Endpoint
   # Start a worker by calling: Hello.Worker.start_link(arg)
